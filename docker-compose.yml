@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  skillgraph-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skillgraph-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=false
+      - DATABASE_URL=sqlite:///./skillgraph.db
+      - SECRET_KEY=skillgraph-production-docker-secret-2025-token
+      - AI_FALLBACK_MODE=true
+    volumes:
+      - skillgraph_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  skillgraph_data:
