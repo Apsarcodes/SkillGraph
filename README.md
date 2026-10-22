@@ -174,7 +174,7 @@ cd frontend && npm run dev
 
 ## 8. Author & Maintainer
 
-- **Mohamed Apsar Asif** ([@Apsarcodes](https://github.com/Apsarcodes))
+- **Mohamed Apsar** ([@Apsarcodes](https://github.com/Apsarcodes))
 - Email: `mohamedapsarasif761@gmail.com`
 
 ---
