@@ -172,6 +172,13 @@ cd frontend && npm run dev
 
 ---
 
-## 8. License
+## 8. Author & Maintainer
+
+- **Mohamed Apsar Asif** ([@Apsarcodes](https://github.com/Apsarcodes))
+- Email: `mohamedapsarasif761@gmail.com`
+
+---
+
+## 9. License
 
 Distributed under the MIT License. See `LICENSE` for details.
